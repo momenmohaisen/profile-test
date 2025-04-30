@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg" type="image/x-icon">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="profile-container">
+    <div class="profile-header">
+      <div class="profile-image">
+        <img src="./profile-photo.jpg" alt="Profile Picture" id="profile-pic">
+        <button id="change-pic-btn"><i class="fas fa-camera"></i></button>
+      </div>
+      <h1 id="profile-name">Momen Elmuhaisen</h1>
+      <p id="profile-title">Web Developer</p>
+      <div class="social-links">
+        <a href="https://github.com/momenmohaisen"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/momen-almuhaisen-984b121a3/"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <button id="dark-mode-toggle"><i class="fas fa-moon"></i> Dark Mode</button>
+    </div>
+
+    <div class="profile-content">
+      <div class="about section">
+        <h2>About Me</h2>
+        <p id="about-text">I am a person who is passionate about learning and growing in the tech field. I enjoy building my skills in web development. I consider myself hardworking, focused, and someone who values doing things right, even if it takes extra effort. I'm excited to find opportunities where I can learn, contribute, and make a real impact.</p>
+      </div>
+
+      <div class="contact-info section">
+        <h2>Contact Info</h2>
+        <ul type="none">
+          <li><i class="fas fa-envelope"></i> Email: momenmohaisen01@gmail.com</li>
+          <li><i class="fas fa-phone"></i> Phone: +962 782979745</li>
+          <li><i class="fas fa-map-marker-alt"></i> Address: Aljwaideh, Amman, Jordan</li>
+        </ul>
+      </div>
+
+      <div class="education section">
+        <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+        <div class="education-item">
+          <h3><img width="28px" src="https://ju.edu.jo/Applications/Design/images/responsive_screens.png" alt="JU Logo"> University of Jordan</h3>
+          <p class="degree">Computer Engineering</p>
+          <p class="date"><i class="far fa-calendar-alt"></i> 2019 - 2025</p>
+        </div>
+      </div>
+
+      <div class="languages section">
+        <h2><i class="fas fa-language"></i> Languages</h2>
+        <ul type="none">
+          <li><i class="fas fa-check-circle"></i> Arabic (Native)</li>
+          <li><i class="fas fa-check-circle"></i> English (Fluent)</li>
+        </ul>
+      </div>
+
+      <div class="projects section">
+        <h2>Projects (SOON!)</h2>
+      </div>
+
+      <div class="memo section">
+        <h2>My Memos</h2>
+        <div class="memo-input">
+          <input type="text" id="memo-input" placeholder="Add a new memo...">
+          <button id="add-memo-btn"><i class="fas fa-plus"></i></button>
+        </div>
+        <ul id="memo-list">
+          <!-- Memos will be added here dynamically -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
